@@ -1,0 +1,8 @@
+{
+  "name":"penna pwa example",
+  "short_name":"penna",
+  "start_url":".",
+  "background_color":"#6dcdb1",
+  "theme_color":"#00ff00",
+  
+}
