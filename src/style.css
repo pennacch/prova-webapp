@@ -1,7 +1,7 @@
 body{background-color: #000000; margin: 0;}
 #topbar{background-color: #ffffff;
   width: 100vw;
-  height: 13vh;
+  height: 14vh;
   display: flex;
 }
 #title {
@@ -10,4 +10,21 @@ align-items: center;
   font-family: sans-serif;
   font-size: 22px;
   margin-left: 4vw;
+}
+#cont1 {
+  margin: 10vh;
+
+  height: 66vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#cont1 div {
+  background-color: white;
+  height: 66vh;
+  width:27vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  border-radius: 12px;
+
 }
