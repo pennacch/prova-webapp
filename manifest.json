@@ -2,8 +2,8 @@
   "name":"penna pwa example",
   "short_name":"penna",
   "start_url":".",
-  "background_color":"#6dcdb1",
-  "theme_color":"#00ff00",
+  "background_color":"#ffffff",
+  "theme_color":"#C1C1C1",
   "display":"standalone",
   "orientation" : "landscape",
   "icons":[
