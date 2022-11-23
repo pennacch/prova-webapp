@@ -17,9 +17,26 @@
   <div id="topbar">
    <div id="title"> Gibellina: narrazioni parallele </div>
   </div>
- <div id="cont1"> 
+ <div id="cont1">
 <div> </div>
 <div> </div>
  </div>
+
+
+
+ <button id="scanButton">Scan</button>
+ <button id="writeButton">Write</button>
+ <button id="makeReadOnlyButton">Make Read-Only</button>
+
+ <script>
+ log = ChromeSamples.log;
+
+ if (!("NDEFReader" in window))
+   ChromeSamples.setStatus("Web NFC is not available. Use Chrome on Android.");
+ </script>
+
+
+
+
   </body>
 </html>
